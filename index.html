@@ -7,21 +7,22 @@
     <title>Todos</title>
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
+  <h1>Todo List</h1>
   <div class="card">
-    <h1>Todo List</h1>
     <form id="todoForm" method="POST">
-      <label for="todoAdd">Add a Todo: </label>
+      <label class="label" for="todoAdd">Add a Todo: </label>
       <input
         type="text"
-        placeholder="Don't forget to... "
+        class="input"
+        placeholder="Add an item & press enter... "
         name="todoAdd"
         id="todoAdd"
       />
     </form>
-    <p>Todo Count: <span id="todoCount">0</span></p>
+    <p class="count">Todo Count: <span id="todoCount">0</span></p>
     <ul id="todoList"></ul>
   </div>
   <body>
-    <script src="/assets/script.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
